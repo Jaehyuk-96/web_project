@@ -6,9 +6,9 @@
 
 기술스택
 --------------------------------------------------------------------------------------------------------------------------
-![image](https://github.com/Jaehyuk-96/web_project/assets/145963663/559ad2bc-be19-497c-9528-3cf32d4b80bb)
-![image](https://github.com/Jaehyuk-96/web_project/assets/145963663/8443ce9f-7b8c-4ede-ae03-f56173f890e1)
-![image](https://github.com/Jaehyuk-96/web_project/assets/145963663/84defd1f-0420-438c-9670-55cab5a534b6)
+![image](https://github.com/Jaehyuk-96/web_project/assets/145963663/559ad2bc-be19-497c-9528-3cf32d4b80bb)<br>
+![image](https://github.com/Jaehyuk-96/web_project/assets/145963663/8443ce9f-7b8c-4ede-ae03-f56173f890e1)<br>
+![image](https://github.com/Jaehyuk-96/web_project/assets/145963663/84defd1f-0420-438c-9670-55cab5a534b6)<br>
 
 
 
