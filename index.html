@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv= "X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"〉
+    <title></title>
+    <!-- css연결 -->
+<link rel="stylesheet" href="css/about_me.css">
+<link rel="stylesheet" href="css/background.css">
+<link rel="stylesheet" href="css/contact_with_me.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/media.css">
+<link rel="stylesheet" href="css/portfolio.css">
+<link rel="stylesheet" href="css/what_i_do.css">
+<!-- fontawsome사용해서 아이콘 넣기 -->
+<script src="https://kit.fontawesome.com/0887673c49.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header에 about, features portfolio contact 버튼을 만듬 -->
+    <header>
+        <div class ="container">
+            <h1>
+                <button data-animation-scroll="true" data-target="#main">Jae</button>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <button data-animation-scroll="true" data-target="#about">About</button>
+                    </li>
+                    <li>
+                        <button data-animation-scroll="true" data-target="#features">Features</button>
+                    </li>
+                    <li>
+                        <button data-animation-scroll="true" data-target="#portfolio">Portfolio</button>
+                    </li>
+                    <li>
+                        <button data-animation-scroll="true" data-target="#contact">Contact</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>    
+    
+<!-- main에 소개페이지를 만들고 다운로드 버튼과 마우스 아이콘을 만듬 -->
+    <main id="main">
+        <div class = "container">
+            <h4>Welcome</h4>
+            <h2>I'M A <span></span></h2>
+            <p>Lorem ipsum dolor sit amet consecteutr adipisicing elit. Paraesentium dolor quas nulla unde ea officiis?</p>
+            <button class="download">DOWNLOAD CV</button>
+            <button class="mouse"><i class="fa-solid fa-computer-mouse"></i></button>
+        </div>
+    </main>
+
+
+<!-- Who Am I  section안에 container에 이미지, 자기소개 div 아이콘을 넣어서 만듬 -->
+    <section id="about" class="about">
+        <div class ="container">
+            <div class="title">
+                <h4>Who Am I</h4>
+                <h2>About Me</h2>
+            </div>
+            <div class="about-self">
+                <div class="left">
+                    <img src="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg" alt="">
+                </div>
+                <div class="right">
+                    <h3>Hello <strong>I'm Jae</strong></h3>
+                    <p>I'm Web Publisher And Web Front-End Developer.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis aperiam accusantium.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit praesentium doloremque quos quis est officiis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis quibusdam.</p>
+                <div class="social">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitch"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- What I DO 컨테이너안에 박스로된 div 클래스를 3개 만들고 각각의 박스안에 아이콘, content를만듬 -->
+    <section id="features" class="do">
+        <div class="container">
+            <div class="title">
+                <h4>Features</h4>
+                <h2>What I Do</h2>
+            </div>
+            <div class="do-me">
+                <div class="do-inner">
+                    <div class="icon">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <div class="content">
+                        <h3>HTML5</h3>
+                        <p>Lorem ipsum dolor sit amet consecteutr adipisicing elit. Paraesentium dolor quas nulla unde ea officiis?</p>
+                    </div>
+                    </div>
+                    <div class="do-inner">
+                    <div class="icon">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="content">
+                        <h3>CSS3</h3>
+                        <p>Lorem ipsum dolor sit amet consecteutr adipisicing elit. Paraesentium dolor quas nulla unde ea officiis?</p>
+                    </div>
+                    </div>
+                    <div class="do-inner">
+                    <div class="icon">
+                        <i class="fa-brands fa-bootstrap"></i>
+                    </div>
+                    <div class="content">
+                        <h3>Bootstrap</h3>
+                        <p>Lorem ipsum dolor sit amet consecteutr adipisicing elit. Paraesentium dolor quas nulla unde ea officiis?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="bg"></div>
+    <!-- 중간에 배경을 보여주려고 div클래스를 만듬 -->
+
+    <!-- portfolio 컨테이너안에 항상 들어가는 제목과 div 박스 6개를 만들고 각각의 박스안에 이미지 글을 넣음 -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="title">
+                <h4>PORTFOLIOBACK</h4>
+                <h2>PortFolio</h2>
+            </div>
+            <div class="portfolio-me">
+                <div class="portfolio-inner">
+                    <img src="https://pensive-kowalevski-fdf325.netlify.app/images/mock1.png" alt="샘플이미지">
+                    <strong>Branding</strong>
+                    <h3>Package Design</h3>
+                </div>
+                <div class="portfolio-inner">
+                    <img src="https://pensive-kowalevski-fdf325.netlify.app/images/mock2.png" alt="샘플이미지">
+                    <strong>Developement</strong>
+                    <h3>Tablet App DEV</h3>
+                </div>
+                <div class="portfolio-inner">
+                    <img src="https://pensive-kowalevski-fdf325.netlify.app/images/mock3.png" alt="샘플이미지">
+                    <strong>Marketing</strong>
+                    <h3>Coca Cola</h3>
+                </div>
+                <div class="portfolio-inner">
+                    <img src="https://pensive-kowalevski-fdf325.netlify.app/images/mock4.png" alt="샘플이미지">
+                    <strong>App</strong>
+                    <h3>FaceBook Clone</h3>
+                </div>
+                <div class="portfolio-inner">
+                    <img src="https://pensive-kowalevski-fdf325.netlify.app/images/mock5.png" alt="샘플이미지">
+                    <strong>App</strong>
+                    <h3>Netflix</h3>
+                </div>
+                <div class="portfolio-inner">
+                    <img src="https://pensive-kowalevski-fdf325.netlify.app/images/mock6.png" alt="샘플이미지">
+                    <strong>Web</strong>
+                    <h3>FirmBee Web</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- contact 컨테이너안에 항상들어가는 제목, left라는 div안에 card라는 3개의 div박스안에 아이콘 제목 내용을넣고, 
+    right div 안에 서로다른 세개의 form과 submit 버튼을 만듬 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="title">
+                <h4>CONTACT</h4>
+                <h2>Contact With Me</h2>
+            </div>
+            <div class="contact-me">
+        <div class="left">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-phone-volume"></i>
+                </div>
+                <div class="info-text">
+                    <h3>phone</h3>
+                    <p>010-1234-1234</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="info-text">
+                    <h3>email</h3>
+                    <p>jaehyuck000@naver.com</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-address-book"></i>
+                </div>
+                <div class="info-text">
+                    <h3>address</h3>
+                    <p>seoul</p>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <form action="#">
+                <div class="form-group">
+                    <label for="name">name</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="name">email</label>
+                    <input type="text" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="msg">message</label>
+                    <textarea id="msg"></textarea>
+                </div>
+                <button type="submit">send</button>
+            </form>
+        </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+    <script src="js/scroll_request.js"></script>
+    <!-- script.js 위에다 놓으면 오류때문에 아래에 배치 -->
+</body>
+</html>
