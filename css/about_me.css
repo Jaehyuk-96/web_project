@@ -1,0 +1,71 @@
+/* about section의 글꼴, 여백 지정 */
+section {
+  font-family: "Poppins", sans-serif;
+  padding: 5rem 0;
+}
+
+/* section의 짝수 nth-child 색상 설정 */
+section:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* section의 제목 아래 여백 설정*/
+section .title {
+  margin-bottom: 3rem;
+}
+/* h4의 글자크기 색상 position 설정 */
+section .title h4 {
+  font-size: 1.35rem;
+  color: #ed4848;
+  position: relative;
+}
+/* h2의 글자 크기 설정 */
+section .title h2 {
+  font-size: 3.5rem;
+}
+/* class title의 p 글자 크기 설정*/
+section .title p {
+  font-size: 1.15rem;
+}
+/*section의 about-self를 after와 속성들을 사용하여 깔끔하게 float를 clear 시킴 */
+section .about-self::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+/* section의 class가 left의 배경크기조정, 넓이, 왼쪽정렬 지정 */
+section .about-self .left {
+  background-size: cover;
+  width: 50%;
+  float: left;
+}
+/* class left 안의 이미지 사이즈 설정 */
+section .about-self .left img {
+  max-width: 90%;
+  height: 350px;
+}
+/* section의 class가 right의 넓이, left 다음으로 왼쪽정렬 ,여백 지정*/
+section .about-self .right {
+  width: 50%;
+  float: left;
+  padding: 0 2rem;
+}
+/*class가 right인 h3의 글자크기 아랫 여백 지정 */
+section .about-self .right h3 {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+}
+/* h3의 strong 색상지정 */
+section .about-self .right h3 strong {
+  color: #ed4848;
+}
+
+section .about-self .right p {
+  font-size: 1.15rem;
+  margin: 1rem 0;
+}
+
+section .about-self .right .social a {
+  font-size: 2.5rem;
+  margin-right: 0.2rem;
+}

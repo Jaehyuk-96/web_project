@@ -1,0 +1,48 @@
+/*3개의 div박스를 가지는 do-me div float 초기화  */
+section .do-me::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*do-me안의 do-inner의 배경색, 넓이, 안쪽간격, float속성 커서포인터속성 지정*/
+section .do-me .do-inner {
+  background-color: #fff;
+  width: 30%;
+  padding: 2rem;
+  float: left;
+  margin-right: 5%;
+  cursor: pointer;
+}
+
+/*3개의 do-inner간격을 맞추기위해서 마지막 do-inner margin-right:0으로 지정*/
+section .do-me .do-inner:last-child {
+  margin-right: 0;
+}
+
+/* do-inner의 아이콘 색상 지정 */
+section .do-me .do-inner .icon i {
+  font-size: 2.5rem;
+  color: #ff6a6a;
+}
+
+/*do-inner의 h3 글자크기 여백 조정 */
+section .do-me .do-inner .content h3 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+/*do-inner의 p의 글자크기 지정 */
+section .do-me .do-inner .content p {
+  font-size: 1.15rem;
+}
+
+/* do-inner에 마우스 커서 올렸을때 배경색과 글자색 변경 */
+section .do-me .do-inner:hover {
+  background-color: lightcoral;
+  color: white;
+}
+/*마우스 커서 올렸을때 아이콘 색상도 변경 */
+section .do-me .do-inner:hover i {
+  color: white;
+}

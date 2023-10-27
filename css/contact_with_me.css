@@ -1,0 +1,89 @@
+/*contact-me div float 초기화  */
+
+section.contact .contact-me::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* contact-me left class의 박스의 넓이 30퍼센트지정 왼쪽정렬 */
+section.contact .contact-me .left {
+  width: 30%;
+  float: left;
+}
+
+/*contact-me right class의 박스의 넓이 65% 왼쪽정렬 오른쪽 margin 5%지정 */
+section.contact .contact-me .right {
+  float: left;
+  width: 65%;
+  margin-left: 5%;
+}
+
+/*contact-me left의 card클래스 여백 , 테두리 가운데정렬 , 수평배치*/
+section.contact .contact-me .left .card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+/* contact-me left의 card클래스의 아이콘의 크기 오른쪽 마진 15px 지정 */
+section.contact .contact-me .left .card .icon i {
+  font-size: 2rem;
+  margin-right: 15px;
+}
+
+/* contact-me의 right클래스의 전체를 왼쪽정렬, 넓이지정, 왼쪽여백, 아랫쪽여백, 테두리 , 여백지정 */
+section.contact .contact-me .right {
+  float: left;
+  width: 65%;
+  margin-left: 5%;
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+section.contact .contact-me .right .form-group {
+  margin-bottom: 1.25rem;
+}
+
+section.contact .contact-me .right .form-group label {
+  display: block;
+  margin-bottom: 0.85rem;
+}
+
+section.contact .contact-me .right .form-group input {
+  padding: 0.625rem;
+  width: 100%;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+section.contact .contact-me .right .form-group input:focus {
+  border: 1px solid #719ece;
+  box-shadow: 0 0 10px #719ece;
+}
+
+section.contact .contact-me .right .form-group textarea {
+  height: 300px;
+  width: 100%;
+  resize: none;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+section.contact .contact-me .right .form-group textarea:focus {
+  outline: none;
+  border: 1px solid #719ece;
+  box-shadow: 0 0 10px #719ece;
+}
+
+section.contact .contact-me .right button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #f78b00;
+  border: none;
+  color: white;
+}
