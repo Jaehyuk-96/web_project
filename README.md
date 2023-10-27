@@ -34,9 +34,8 @@
 <img src="https://github.com/Jaehyuk-96/web_project/assets/145963663/ea3d08b7-0520-4263-8f6c-af0b5df82ed6" height="300px" width="500px">
 <img src="https://github.com/Jaehyuk-96/web_project/assets/145963663/dd36ab2e-67b7-4594-ac7f-72c5eb8d035e" height="300px" width="500px">
 <img src="https://github.com/Jaehyuk-96/web_project/assets/145963663/f273a93b-469f-4172-923b-0897a8a91ddc" height="300px" width="500px">
-
-
-
+<br>
+<br>
 * 반응형 웹페이지
  <img src="https://github.com/Jaehyuk-96/web_project/assets/145963663/7a577bad-6b90-4148-a7e9-9d38f7283e90" height="500px" width="250px">
  <img src="https://github.com/Jaehyuk-96/web_project/assets/145963663/1ddcbefb-c564-4d7c-88a1-4f366150df7d" height="500px" width="250px">
