@@ -36,7 +36,7 @@
 ![image](https://github.com/Jaehyuk-96/web_project/assets/145963663/f273a93b-469f-4172-923b-0897a8a91ddc)
 
 * 반응형 웹페이지
-  <p margint-right=10px>
+  <p margin-right=10px>
  <img src="https://github.com/Jaehyuk-96/web_project/assets/145963663/7a577bad-6b90-4148-a7e9-9d38f7283e90" height="500px" width="250px">
  <img src="https://github.com/Jaehyuk-96/web_project/assets/145963663/1ddcbefb-c564-4d7c-88a1-4f366150df7d" height="500px" width="250px">
  <img src="https://github.com/Jaehyuk-96/web_project/assets/145963663/2386f16e-3e71-426c-8ce0-ee02e948a61e" height="500px" width="250px">
