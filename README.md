@@ -443,7 +443,7 @@ function scrollCheck() {
 
 
 
-###웹페이지 구현
+### 웹페이지 구현
 ---
 * <h3>기본페이지</h3>
 <img src="https://github.com/Jaehyuk-96/web_project/assets/145963663/7c6c25f7-43b8-491b-b515-de34dc794013" height="250px" width="400px">
